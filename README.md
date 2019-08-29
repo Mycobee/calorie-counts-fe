@@ -1,35 +1,23 @@
-# Quantified Self Front-end
+# Calorie Counts Front-end
+
+This is the front end for our Calorie Counts API.  Please visit the documentation for more info, [here](https://github.com/lpile/calorie-counts)
 
 ## Initial Setup
 
-1. Clone this starter kit repository and rename the repository to `quantified-self-fe` in one command
+1. Clone this starter kit repository and rename the repository to `calorie-counts-fe` in one command
 
   ```shell
-  git clone git@github.com:turingschool-examples/qs-fe-starter-kit.git quantified-self-fe
+  git clone git@github.com:mycobee/calorie-counts-fe.git
   ```
-2. Change into the `quantified-self-fe` directory
+2. Change into the `calorie-counts-fe` directory
 
-3. Remove the default remote (origin)
-
-  ```shell
-  git remote rm origin
-  ```
-
-4. Create a new repository on GitHub named `quantified-self-fe`
-
-5. Add your new repository remote - **your remote URL and user name will be different in the command below**
-
-  ```shell
-  git remote add origin git@github.com:<YOUR GITHUB NAME>/quantified-self-fe.git
-  ```
-
-6. Install the dependencies of the starter kit
+3. Install the dependencies of the starter kit
 
   ```shell
   npm install
   ```
 
-7. Add, commit, and push up to your repository
+4. Add, commit, and push up to your repository
 
   ```shell
   git add .
@@ -51,29 +39,11 @@ Once the server is running, visit in your browser:
 
 You will need to make sure that your Quantified Self API is also running at `http://localhost:3000`
 
-## GitHub Pages Setup
 
-This site will be served from GitHub Pages in production.
-
-In order to see your application running on production:
-
-1. From the command line, run `npm run build`.
-
-2. Commit and push your application to GitHub.
-
-3. Visit your repository on Github
-
-4. Go to Settings
-
-5. Under the Github Pages section of Options, select 'master' as your source and click `Save`
-
-Be sure to `npm run build` and commit before each push to master. A few seconds after you push up, you should be able to see your application at <https://your-github-username.github.io/quantified-self-fe>.
 
 ## Built With
 
 * [JavaScript](https://www.javascript.com/)
 * [jQuery](https://jquery.com/)
-* [Express](https://expressjs.com/)
-* [Mocha](https://mochajs.org/)
-* [Chai](https://chaijs.com/)
+
 
