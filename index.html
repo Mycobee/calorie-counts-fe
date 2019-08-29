@@ -3,6 +3,7 @@
 	<head>
 	  <meta charset="utf-8">
 	  <title>Quantified Self - Diary</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
 	  <script
 	    src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
 	  </script>
@@ -10,15 +11,19 @@
 	</head>
 
 	<body>
-		<h1> Food List </h1>
+		<div id="recipe-box">
+			<div id="foods-box">
+				<h1> Food List </h1>
+				<section id='foods'><script src="./lib/foods.js"></script></section>
+			</div>
 
-		<section id='foods'><script src="./lib/foods.js"></script></section>
+			<div id="meals-box">
+				<h1> Meal List </h1>
+				<section id='meals'><script src="./lib/meals.js"></script></section>
+			</div>
+		</div>
 
-		<h1> Meal List </h1>
-		<section id='meals'><script src="./lib/meals.js"></script></section>
-
-
-		<section>
+		<section id="add-food-box">
 			<h3> Add a Food </h3>
 			<form id='add-food'>
 			  Name:<br>
