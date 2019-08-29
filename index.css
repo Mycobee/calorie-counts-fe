@@ -16,15 +16,26 @@
 
 #add-food-box {
   align-self: center;
+	padding: 1rem;
 }
+
 
 input {
   background-color: beige;
+}
+
+a {
+	color: #101357;
 }
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: rgba(50, 115, 220, 0.3);
+	border-style: solid;
+	border-width: 0.5rem;
+	border-radius: 2rem;
+	color: #282828; 
+	background-color:	teal;
 }
+
