@@ -1,0 +1,30 @@
+#recipe-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#foods-box {
+  display: flex;
+  flex-direction: column;
+}
+
+#meals-box {
+  display: flex;
+  flex-direction: column;
+}
+
+#add-food-box {
+  align-self: center;
+}
+
+input {
+  background-color: beige;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgba(50, 115, 220, 0.3);
+}
